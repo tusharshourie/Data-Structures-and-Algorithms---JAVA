@@ -1,0 +1,40 @@
+An array is a collection of items of same data type stored at contiguous memory locations. 
+This makes it easier to calculate the position of each element by simply adding an offset to a base value, 
+i.e., the memory location of the first element of the array (generally denoted by the name of the array).
+
+Advantages of contiguous storage:
+* Random Access - can get the address of items in array by using the address of the first element. Arrays have random access they find the ith element in constant time
+* Cache friendliness - process prefetch nearby items according to the cache capacity
+
+Array Types:
+*Fixed size array - eg: in java arrays are always allocated in heap unlike c++
+                        int [] arr = new int[100]
+                        int [] arr = new int[n]
+                        int arr[] = { 10, 15, 20}
+*dynamic array -  once the array is full and a new element is to be insertted in the array then the array size is increased
+                 (eg: doubled or tripled) and the elements of the array are then copied in this array and the new item is then inserted.
+                c++ vector
+                java arraylist
+                python list
+
+
+VECTORS IN C++:
+    Advantages: - Dynamic size
+                - Rich library function find erase insert etc
+                - easy to know size
+                - no need to pass size
+                - can be returned from a function
+                - by default initialized with default values
+                - we can copy a vector to other
+
+ARRAYLIST IN JAVA (created inside heap):
+    Advantages: - Dynamic size
+                - Rich library funcctions
+                - elements stored in non continuos form 
+                - only objects are stored
+                
+
+FOR DYNAMIC ARRAYS:
+Insert at the end of dynamic array
+- Time complexity of every insert for first n items : O(1)
+- Average time complexity for(n+1) insert: (O(1)+O(1)+O(1)+.....+ Theta(n))/ n+1 = O(1)

@@ -1,0 +1,14 @@
+Greedy Technique= Problem solving Technique where we can make the locally optimum
+        choice at each stage and hope to achieve a global optimum.
+
+1. Optimisation= min, max
+
+2. uses sorting
+
+3. no fixed rule
+
+4. not realised but used most of the times
+
+
+Pros: Simple and Easy
+Cons: A lot of time, global optimum not acheived

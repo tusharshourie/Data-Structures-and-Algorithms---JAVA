@@ -1,0 +1,4 @@
+TYPES:
+- Decision => which path to choose
+- Optimisation => which is the best path
+- Enumeration => no of paths

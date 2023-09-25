@@ -1,0 +1,18 @@
+isEmpty()=true if stack is empty
+push(x)= inserts an item to the top of stack
+peek()= returns the top item
+pop()=removes an item from the top
+size()= returns the size of stack
+
+Underflow= when pop() and peek() called on empty stack
+Overflow= when push called on full stack
+
+
+APPLICATIONS:
+* function calls
+* Checking for balanced paranthesis
+* reversing items
+* infix to postfix and prefix
+* evaluation of postfix/prefix
+* stock span problem and its variations
+* forward/backward or redo/undo

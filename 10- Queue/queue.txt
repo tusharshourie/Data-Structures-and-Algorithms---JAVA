@@ -1,0 +1,38 @@
+FIFO
+
+OPERATIONS
+* enqueue(x) 
+* dequeue()
+* getFront()
+* getRear()
+* size()
+* isEmpty()
+
+
+APPLICATIONS:
+* Single resource and multiple resources
+* Synchronization between slow and fast devices
+* In OS (Semaphores, fCFS Scheduling, Spooling, buffers for devices like keyboards)
+* In CN (Routers/Switches and Mail Queues)
+* variations: Dequeue, Priority Queue, Doubly ended priority Queue
+
+
+
+***** An interface implemented by the following:
+            -Linked List
+            -Array Dequeue  (preferred)
+
+
+queue.peek()- returns the first item of queue
+queue.poll()-removes the first item from queue and returns the queue
+
+
+****** FUNCTIONS THAT DO NOT THROW AN EXCEPTION
+            - peek()
+            - offer()
+            - poll()
+
+****** FUNCTIONS THAT THROW AN EXCEPTION
+            - element()
+            - add()
+            - remove()

@@ -1,0 +1,38 @@
+STRINGS
+- Sequence of characters
+- Small set
+- Contiguous integer values for 'a' to 'z' and 'A' to 'Z' in both
+    ASCII and UTF-16
+
+In C++:
+char:  ASCII
+        8 bit
+        Also supports wchar_t
+
+In JAVA:
+char:  UTF 16 (UNICODE standard format, the first 128 chars & their encoding are same as ASCII)(larger character set)
+        16 bit
+        Also supports byte
+
+
+eg: char x='a';
+    System.out.print((int)x);    //output=97
+
+
+
+     STRINGS IN JAVA
+    
+-character ARRAY/ARRAYLIST
+   char []arr = {'g','e','e','j'};
+
+-STRING CLASS
+    String str = "geeks";                           //IMMUTABLE
+            or
+    String str = new String("geeks");
+
+
+-StringBuffer CLASS
+    StringBuffer str = new StringBuffer("geeks");    //MUTABLE  //thread safe
+
+-StringBuilder CLASS    
+    StringBuilder str = new StringBuilder("geeks");   //MUTABLE //not thread safe

@@ -1,0 +1,13 @@
+Here, m-> pattern length
+      n -> Text length1<=m<=n
+
+
+* NAIVE = o((n-m+1)*m)              //no preprocessing
+    naive when all characters of patterns are distinct = O(n)   
+
+*RABIN KARP = O((n-m+1)*m)          //preprocessing pattern
+            but better than NAIVE on average
+
+* KMP = O(n)        //preprocessing pattern
+
+*SUFFIX TREE = O(m)  //preprocessing text

@@ -1,0 +1,29 @@
+Deque - Doubly ended queue, has a rear and a front
+
+=>  OPERATIONS
+    * InsertFront()
+    * insertRear()
+    * DeleteFront()
+    * DeleteRear()
+
+=>  ADDITIONAL OPERATIONS
+    * getFront()
+    * getRear()
+    * isFull()
+    * isEmpty()
+    * size()
+
+
+=> IMPLEMENTATION
+    * Linked List: using Doubly Linked List, front and rear references in java
+    * Array: Circular array with front and rear indexes. We can also use front and size.
+
+=> Time complexity of all operations should be O(1)
+
+
+=> APPLICATIONS:
+    * A deque can be used as both stack and queue
+    * Containing history of APPLICATIONS
+    * Steal process scheduling algorithms
+    * Implementing a priority queue with two types of pointers
+    * Maximum/Minimum of all subarrays of size k in an array
